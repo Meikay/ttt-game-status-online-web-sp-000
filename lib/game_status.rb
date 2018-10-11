@@ -52,8 +52,8 @@ def over?(board)
 end
 
 def winner(board)
-  index = won?(board)
-   !index ? nil : board[index[0]]
+  #index = won?(board)
+   !won?(board) ? nil : board[index[0]]
   #  return nil
   #else
   #   return board[index[0]]
